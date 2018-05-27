@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">noteApp</string>
     <string name="loginWithGoogle">Iniciar sesión con google</string>
+    <string name="title_activity_home">homeActivity</string>
 </resources>
