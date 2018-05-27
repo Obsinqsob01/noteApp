@@ -22,17 +22,17 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="noteApp"
+            android:text="@string/app_name"
             android:textColor="@android:color/white"
             android:textSize="50sp"
             app:fontFamily="casual" />
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/btnSignIn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 

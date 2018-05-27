@@ -68,11 +68,12 @@ class MainActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedList
                     startActivity(intent)
                     finish()
                 } else {
+
                     Toast.makeText(applicationContext, "Ocurrió un error", Toast.LENGTH_SHORT).show()
                 }
             }
         } else {
-            Toast.makeText(applicationContext, "El inicio de sesión no fue exitoso", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, result., Toast.LENGTH_SHORT).show()
         }
     }
 
